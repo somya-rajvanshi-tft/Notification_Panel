@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live Notification Panel</title>
+  <style>
+    .message {
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .highlight {
+      background-color: #fffae6;
+      border-left: 4px solid #ffa500;
+    }
+  </style>
+</head>
+<body>
+  <h2>Notifications (<span id="unread-count">0</span> unread)</h2>
+  <div id="notifications"></div>
+  <button id="add-message">Add Message</button> 
+  <script src="notification.js"></script>
+</body>
+</html>
